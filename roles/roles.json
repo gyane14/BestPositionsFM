@@ -1,0 +1,176 @@
+{
+    "Attacking Midfielder": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "First Touch",
+                "Long Shots",
+                "Passing",
+                "Technique",
+                "Anticipation",
+                "Decisions",
+                "Flair",
+                "Off The Ball"
+            ],
+            "prefer": [
+                "Finishing",
+                "Composure",
+                "Vision",
+                "Agility"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Long Shots",
+                "Passing",
+                "Technique",
+                "Anticipation",
+                "Decisions",
+                "Flair",
+                "Off The Ball"
+            ],
+            "prefer": [
+                "Dribbling",
+                "Composure",
+                "Vision",
+                "Agility"
+            ]
+        },
+        "Defend": {
+            "vital": "",
+            "prefer": ""
+        }
+    },
+    "Advanced Playmaker": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork",
+                "Vision"
+            ],
+            "prefer": [
+                "Anticipation",
+                "Flair",
+                "Acceleration",
+                "Agility"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork",
+                "Vision"
+            ],
+            "prefer": [
+                "Dribbling",
+                "Anticipation",
+                "Flair",
+                "Agility"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Shadow Striker": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Finishing",
+                "First Touch",
+                "Anticipation",
+                "Composure",
+                "Off The Ball",
+                "Acceleration"
+            ],
+            "prefer": [
+                "Passing",
+                "Technique",
+                "Concentration",
+                "Decisions",
+                "Work Rate",
+                "Agility",
+                "Balance",
+                "Pace",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [],
+            "prefer": []
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Trequartista": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Flair",
+                "Off The Ball",
+                "Vision",
+                "Acceleration"
+            ],
+            "prefer": [
+                "Finishing",
+                "Anticipation",
+                "Agility",
+                "Balance"
+            ]
+        },
+        "Support": {
+            "vital": [],
+            "prefer": []
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Enganche": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Vision"
+            ],
+            "prefer": [
+                "Anticipation",
+                "Flair",
+                "Off The Ball",
+                "Balance"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    }
+}
