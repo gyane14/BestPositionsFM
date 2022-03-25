@@ -67,12 +67,10 @@ def compareMe(filename):
     # print(pfjson['Crossing'])
     pfroles = json.load(open('roles/roles.json'))
 
-    positions = ["Attacking Midfielder", "Advanced Playmaker", "Shadow Striker", "Trequartista", "Enganche"]
+    positions = [position for position in pfroles]
     modes = ['Attack', 'Support', 'Defend']
 
     selections = {}
-    # Attacking Midfielder - Attack : <average_points>
-    # Attacking Midfielder - Support : <average_points>
 
     for position in positions:
         for mode in modes:
