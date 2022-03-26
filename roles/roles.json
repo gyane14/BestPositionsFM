@@ -172,5 +172,1106 @@
             "vital": [],
             "prefer": []
         }
+    },
+    "Inverted Winger": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Passing",
+                "Technique",
+                "Off The Ball",
+                "Acceleration",
+                "Agility"
+            ],
+            "prefer": [
+                "Crossing",
+                "First Touch",
+                "Long Shots",
+                "Anticipation",
+                "Composure",
+                "Decisions",
+                "Flair",
+                "Vision",
+                "Pace"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Dribbling",
+                "Passing",
+                "Technique",
+                "Off The Ball",
+                "Acceleration"
+            ],
+            "prefer": [
+                "Crossing",
+                "First Touch",
+                "Long Shots",
+                "Composure",
+                "Decisions",
+                "Vision",
+                "Work Rate",
+                "Agility",
+                "Pace",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Inside Forward": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Finishing",
+                "First Touch",
+                "Technique",
+                "Off The Ball",
+                "Acceleration",
+                "Agility",
+                "Balance"
+            ],
+            "prefer": [
+                "Long Shots",
+                "Passing",
+                "Anticipation",
+                "Composure",
+                "Flair",
+                "Pace"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Off The Ball",
+                "Acceleration",
+                "Agility",
+                "Balance"
+            ],
+            "prefer": [
+                "Finishing",
+                "Long Shots",
+                "Anticipation",
+                "Composure",
+                "Flair",
+                "Vision",
+                "Pace"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Winger": {
+        "Attack": {
+            "vital": [
+                "Crossing",
+                "Dribbling",
+                "Technique",
+                "Off The Ball",
+                "Acceleration",
+                "Pace"
+            ],
+            "prefer": [
+                "First Touch",
+                "Passing",
+                "Anticipation",
+                "Flair",
+                "Agility"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Crossing",
+                "Dribbling",
+                "Technique",
+                "Off The Ball",
+                "Acceleration",
+                "Pace"
+            ],
+            "prefer": [
+                "First Touch",
+                "Passing",
+                "Work Rate",
+                "Agility",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Wide Target Man": {
+        "Attack": {
+            "vital": [
+                "Heading",
+                "Bravery",
+                "Off The Ball",
+                "Jumping Reach",
+                "Strength"
+            ],
+            "prefer": [
+                "Crossing",
+                "Finishing",
+                "First Touch",
+                "Anticipation",
+                "Teamwork",
+                "Work Rate",
+                "Balance",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Heading",
+                "Bravery",
+                "Teamwork",
+                "Jumping Reach",
+                "Strength"
+            ],
+            "prefer": [
+                "Crossing",
+                "First Touch",
+                "Anticipation",
+                "Off The Ball",
+                "Work Rate",
+                "Balance",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Raumdeuter": {
+        "Attack": {
+            "vital": [
+                "Finishing",
+                "Anticipation",
+                "Composure",
+                "Concentration",
+                "Decisions",
+                "Off The Ball",
+                "Balance"
+            ],
+            "prefer": [
+                "First Touch",
+                "Technique",
+                "Work Rate",
+                "Acceleration",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [],
+            "prefer": []
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Mezzala": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Passing",
+                "Technique",
+                "Decisions",
+                "Off The Ball",
+                "Vision",
+                "Work Rate",
+                "Acceleration"
+            ],
+            "prefer": [
+                "Finishing",
+                "First Touch",
+                "Long Shots",
+                "Anticipation",
+                "Composure",
+                "Flair",
+                "Balance",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Passing",
+                "Technique",
+                "Decisions",
+                "Off The Ball",
+                "Work Rate",
+                "Acceleration"
+            ],
+            "prefer": [
+                "Dribbling",
+                "First Touch",
+                "Long Shots",
+                "Tackling",
+                "Anticipation",
+                "Composure",
+                "Vision",
+                "Balance",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Deep Lying Playmaker": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Teamwork",
+                "Vision"
+            ],
+            "prefer": [
+                "Anticipation",
+                "Off The Ball",
+                "Work Rate",
+                "Balance"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Teamwork",
+                "Vision",
+                "Work Rate"
+            ],
+            "prefer": [
+                "Tackling",
+                "Anticipation",
+                "Positioning",
+                "Balance"
+            ]
+        }
+    },
+    "Central Midfielder": {
+        "Attack": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Decisions",
+                "Off The Ball"
+            ],
+            "prefer": [
+                "Long Shots",
+                "Tackling",
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Teamwork",
+                "Vision",
+                "Work Rate",
+                "Acceleration",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Tackling",
+                "Decisions",
+                "Teamwork"
+            ],
+            "prefer": [
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Concentration",
+                "Off The Ball",
+                "Vision",
+                "Work Rate",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "Tackling",
+                "Concentration",
+                "Decisions",
+                "Positioning",
+                "Teamwork"
+            ],
+            "prefer": [
+                "First Touch",
+                "Marking",
+                "Passing",
+                "Technique",
+                "Aggression",
+                "Anticipation",
+                "Composure",
+                "Work Rate",
+                "Stamina"
+            ]
+        }
+    },
+    "Box To Box Midfielder": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "Passing",
+                "Tackling",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Stamina"
+            ],
+            "prefer": [
+                "Dribbling",
+                "Finishing",
+                "First Touch",
+                "Long Shots",
+                "Technique",
+                "Aggression",
+                "Anticipation",
+                "Composure",
+                "Decisions",
+                "Positioning",
+                "Acceleration",
+                "Balance",
+                "Pace",
+                "Strength"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Carrilero": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "Passing",
+                "Tackling",
+                "Decisions",
+                "Positioning",
+                "Teamwork",
+                "Work Rate",
+                "Stamina"
+            ],
+            "prefer": [
+                "First Touch",
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Concentration",
+                "Off The Ball",
+                "Vision"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Ball Winning Midfielder": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "Tackling",
+                "Aggression",
+                "Anticipation",
+                "Bravery",
+                "Teamwork",
+                "Work Rate"
+            ],
+            "prefer": [
+                "Marking",
+                "Passing",
+                "Concentration",
+                "Agility",
+                "Pace",
+                "Stamina",
+                "Strength"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "Tackling",
+                "Aggression",
+                "Anticipation",
+                "Bravery",
+                "Teamwork",
+                "Work Rate"
+            ],
+            "prefer": [
+                "Marking",
+                "Concentration",
+                "Positioning",
+                "Agility",
+                "Pace",
+                "Stamina",
+                "Strength"
+            ]
+        }
+    },
+    "Roaming Playmaker": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork",
+                "Vision",
+                "Work Rate",
+                "Acceleration",
+                "Stamina"
+            ],
+            "prefer": [
+                "Dribbling",
+                "Long Shots",
+                "Concentration",
+                "Positioning",
+                "Agility",
+                "Balance",
+                "Pace"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Target Man": {
+        "Attack": {
+            "vital": [
+                "Finishing",
+                "Heading",
+                "Bravery",
+                "Composure",
+                "Off The Ball",
+                "Balance",
+                "Jumping Reach",
+                "Strength"
+            ],
+            "prefer": [
+                "First Touch",
+                "Aggression",
+                "Anticipation",
+                "Decisions",
+                "Teamwork"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Heading",
+                "Bravery",
+                "Teamwork",
+                "Balance",
+                "Jumping Reach",
+                "Strength"
+            ],
+            "prefer": [
+                "Finishing",
+                "First Touch",
+                "Aggression",
+                "Anticipation",
+                "Composure",
+                "Decisions",
+                "Off The Ball"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Poacher": {
+        "Attack": {
+            "vital": [
+                "Finishing",
+                "Anticipation",
+                "Composure",
+                "Off The Ball"
+            ],
+            "prefer": [
+                "First Touch",
+                "Heading",
+                "Technique",
+                "Decisions",
+                "Acceleration"
+            ]
+        },
+        "Support": {
+            "vital": [],
+            "prefer": []
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Pressing Forward": {
+        "Attack": {
+            "vital": [
+                "Aggression",
+                "Anticipation",
+                "Bravery",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Pace",
+                "Stamina"
+            ],
+            "prefer": [
+                "Finishing",
+                "First Touch",
+                "Composure",
+                "Concentration",
+                "Decisions",
+                "Agility",
+                "Balance",
+                "Strength"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Aggression",
+                "Anticipation",
+                "Bravery",
+                "Decisions",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Pace",
+                "Strength"
+            ],
+            "prefer": [
+                "First Touch",
+                "Passing",
+                "Composure",
+                "Concentration",
+                "Off The Ball",
+                "Agility",
+                "Balance",
+                "Strength"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "Aggression",
+                "Anticipation",
+                "Bravery",
+                "Decisions",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Pace",
+                "Stamina"
+            ],
+            "prefer": [
+                "First Touch",
+                "Composure",
+                "Concentration",
+                "Agility",
+                "Balance",
+                "Strength"
+            ]
+        }
+    },
+    "Advanced Forward": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Finishing",
+                "First Touch",
+                "Technique",
+                "Composure",
+                "Off The Ball",
+                "Acceleration"
+            ],
+            "prefer": [
+                "Passing",
+                "Anticipation",
+                "Decisions",
+                "Work Rate",
+                "Agility",
+                "Balance",
+                "Pace",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [],
+            "prefer": []
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Deep Lying Forward": {
+        "Attack": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork"
+            ],
+            "prefer": [
+                "Dribbling",
+                "Finishing",
+                "Anticipation",
+                "Flair",
+                "Vision",
+                "Balance",
+                "Strength"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork"
+            ],
+            "prefer": [
+                "Finishing",
+                "Anticipation",
+                "Flair",
+                "Vision",
+                "Balance",
+                "Strength"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Complete Forward": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Finishing",
+                "First Touch",
+                "Heading",
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Off The Ball",
+                "Acceleration",
+                "Agility",
+                "Strength"
+            ],
+            "prefer": [
+                "Long Shots",
+                "Passing",
+                "Decisions",
+                "Teamwork",
+                "Vision",
+                "Work Rate",
+                "Balance",
+                "Jumping Reach",
+                "Pace",
+                "Stamina"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Dribbling",
+                "First Touch",
+                "Heading",
+                "Long Shots",
+                "Passing",
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Vision",
+                "Acceleration",
+                "Agility",
+                "Strength"
+            ],
+            "prefer": [
+                "Finishing",
+                "Teamwork",
+                "Work Rate",
+                "Balance",
+                "Jumping Reach",
+                "Pace",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "False Nine": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Off The Ball",
+                "Vision",
+                "Acceleration",
+                "Agility"
+            ],
+            "prefer": [
+                "Finishing",
+                "Anticipation",
+                "Flair",
+                "Teamwork",
+                "Balance"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Wing Back": {
+        "Attack": {
+            "vital": [
+                "Crossing",
+                "Dribbling",
+                "Tackling",
+                "Technique",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Pace",
+                "Stamina"
+            ],
+            "prefer": [
+                "First Touch",
+                "Marking",
+                "Passing",
+                "Anticipation",
+                "Concentration",
+                "Decisions",
+                "Flair",
+                "Positioning",
+                "Agility"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Crossing",
+                "Dribbling",
+                "Marking",
+                "Tackling",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Stamina"
+            ],
+            "prefer": [
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Anticipation",
+                "Concentration",
+                "Decisions",
+                "Positioning",
+                "Agility",
+                "Pace"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "Marking",
+                "Tackling",
+                "Anticipation",
+                "Positioning",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Stamina"
+            ],
+            "prefer": [
+                "Crossing",
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Concentration",
+                "Decisions",
+                "Off The Ball",
+                "Agility",
+                "Pace"
+            ]
+        }
+    },
+    "Full Back": {
+        "Attack": {
+            "vital": [
+                "Crossing",
+                "Tackling",
+                "Anticipation",
+                "Positioning",
+                "Teamwork",
+                "Work Rate",
+                "Pace",
+                "Stamina"
+            ],
+            "prefer": [
+                "Dribbling",
+                "First Touch",
+                "Marking",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Concentration",
+                "Decisions",
+                "Off The Ball",
+                "Acceleration",
+                "Agility"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Marking",
+                "Tackling",
+                "Anticipation",
+                "Concentration",
+                "Positioning",
+                "Teamwork",
+                "Work Rate"
+            ],
+            "prefer": [
+                "Crossing",
+                "Dribbling",
+                "Passing",
+                "Technique",
+                "Composure",
+                "Decisions",
+                "Pace",
+                "Stamina"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "Marking",
+                "Tackling",
+                "Anticipation",
+                "Concentration",
+                "Positioning"
+            ],
+            "prefer": [
+                "Crossing",
+                "Passing",
+                "Composure",
+                "Decisions",
+                "Teamwork",
+                "Pace",
+                "Stamina"
+            ]
+        }
+    },
+    "No-Nonsense Full Back": {
+        "Attack": {
+            "vital": [],
+            "prefer": []
+        },
+        "Support": {
+            "vital": [],
+            "prefer": []
+        },
+        "Defend": {
+            "vital": [
+                "Marking",
+                "Tackling",
+                "Anticipation",
+                "Positioning",
+                "Strength"
+            ],
+            "prefer": [
+                "Heading",
+                "Aggression",
+                "Bravery",
+                "Concentration",
+                "Teamwork"
+            ]
+        }
+    },
+    "Complete Wing Back": {
+        "Attack": {
+            "vital": [
+                "Crossing",
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Decisions",
+                "Flair",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Pace",
+                "Stamina"
+            ],
+            "prefer": [
+                "Tackling",
+                "Anticipation",
+                "Composure",
+                "Agility",
+                "Balance"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Crossing",
+                "Dribbling",
+                "First Touch",
+                "Passing",
+                "Technique",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Pace",
+                "Stamina"
+            ],
+            "prefer": [
+                "Tackling",
+                "Anticipation",
+                "Composure",
+                "Flair",
+                "Agility",
+                "Balance"
+            ]
+        },
+        "Defend": {
+            "vital": [],
+            "prefer": []
+        }
+    },
+    "Inverted Wing Back": {
+        "Attack": {
+            "vital": [
+                "Dribbling",
+                "Marking",
+                "Passing",
+                "Tackling",
+                "Technique",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Acceleration",
+                "Stamina"
+            ],
+            "prefer": [
+                "First Touch",
+                "Long Shots",
+                "Anticipation",
+                "Composure",
+                "Concentration",
+                "Flair",
+                "Positioning",
+                "Agility",
+                "Pace"
+            ]
+        },
+        "Support": {
+            "vital": [
+                "Marking",
+                "Passing",
+                "Tackling",
+                "Decisions",
+                "Off The Ball",
+                "Teamwork",
+                "Work Rate",
+                "Stamina"
+            ],
+            "prefer": [
+                "Dribbling",
+                "First Touch",
+                "Technique",
+                "Anticipation",
+                "Composure",
+                "Concentration",
+                "Positioning",
+                "Acceleration",
+                "Agility"
+            ]
+        },
+        "Defend": {
+            "vital": [
+                "Marking",
+                "Passing",
+                "Tackling",
+                "Anticipation",
+                "Decisions",
+                "Positioning",
+                "Teamwork",
+                "Work Rate"
+            ],
+            "prefer": [
+                "Dribbling",
+                "First Touch",
+                "Technique",
+                "Concentration",
+                "Off The Ball",
+                "Acceleration",
+                "Agility",
+                "Stamina"
+            ]
+        }
     }
 }

@@ -69,7 +69,7 @@ def compareMe(dict):
             for k in pfroles[position][mode]['prefer']:
                 for l in pfjson:
                     if ( k == l ):
-                        tsum += float(float(pfjson[k])*0.75)
+                        tsum += float(float(pfjson[k])*0.8)
 
             try: 
                 selections[position,mode] = float(format((tsum) / (len(pfroles[position][mode]['vital']) + len(pfroles[position][mode]['prefer'])),".3f"))
@@ -77,7 +77,7 @@ def compareMe(dict):
                 selections[position,mode] = 0
 
     selection = Counter(selections)
-    best_selection = selection.most_common(3)
+    best_selection = selection.most_common(10)
 
     for i in best_selection:
         print(i[0]," :",i[1]," ")
