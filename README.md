@@ -18,13 +18,22 @@ The algorithm is set up in such a way that "key" attributes related to a player'
 - the program will showcase the best list of positions, roles and duties for the player, with an *aggregate score* 
 
 ### Version History
-- V0.1 (Current)
-    &#9989; Feature Upgrade: Best Positions for Squad Players!
-    &#9989; Roles & Duties Added: Inverted Winger, Inside Forward, Winger, Wide Target Man, Trequartista, Raumdeuter, Mezzala, Deep Lying Playmaker, Central Midfielder, Box To Box Midfielder, Carrilero, Ball Winning Midfielder, Roaming Playmaker,Target Man, Poacher, Pressing Forward, Advanced Forward, Deep Lying Forward, Complete Forward, False Nine, Wing Back, Full Back, No-Nonsense Full Back, Complete Wing Back, Inverted Wing Back
+- <strong>V0.1 (Current)</strong> <br />
+    &#9989; Feature Upgrade: <em>Best Positions for now available for Squad Players!</em> <br />
+    &#9989; Roles & Duties Added 
+    <table><em>
+    <tr><td>Inverted Winger</td><td>Inside Forward</td><td>Winger</td><td>Wide Target Man</td><td>Trequartista</td></tr>
+    <tr><td>Raumdeuter</td><td>Mezzala</td><td>Deep Lying Playmaker</td><td>Central Midfielder</td><td>Box To Box Midfielder</td></tr>
+    <tr><td>Carrilero</td><td>Ball Winning Midfielder</td><td>Roaming Playmaker</td><td>Target Man</td><td>Poacher</td></tr>
+    <tr><td>Pressing Forward</td><td>Advanced Forward</td><td>Deep Lying Forward</td><td>Complete Forward</td><td>False Nine</td></tr>
+    <tr><td>Wing Back</td><td>Full Back</td><td>No-Nonsense Full Back</td><td>Complete Wing Back</td><td>Inverted Wing Back</td></tr>
+    </em></table>
+    </details>
 
-- Initial Commit
-    &#9989; Roles & Duties Added: Attacking Midfielder, Advanced Playmaker, Shadow Striker, Trequartista, Enganche
 
-
-
+- <strong>Initial Commit</strong> <br />
+    &#9989; Roles & Duties Added
+    <table>
+        <tr><td>Attacking Midfielder</td><td>Advanced Playmaker</td><td>Shadow Striker</td><td>Trequartista</td><td>Enganche</td></tr>
+    </table>
 <!-- ![MIT License](https://img.shields.io/badge/license-MIT-brightgreen) -->
