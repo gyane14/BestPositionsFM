@@ -1,4 +1,5 @@
 import json
+import sys
 from collections import Counter
 
 
@@ -126,17 +127,21 @@ def compareMe(dict):
     readMe(filename)
 
 
-print("=========================================")
-print("||  Please enter the name of the file  ||")
-print("=========================================")
-# print("|              Menu Options:            |")
-# print("|        1. Select a Squad Player       |")
-# print("|    2. Select a Fully Scouted Player   |")
-# print("|      3. Alter Attribute Multipier     |")
-# print("|        4. Clear Players Folder        |")
-# print("=========================================")
-# print(" Format: name_of_file <space> menu_option")
-# print("=========================================")
+try:
+    filename = "players/" + sys.argv[1] + ".rtf"
+    readMe(filename)
+except:
+    print("=========================================")
+    print("||  Please enter the name of the file  ||")
+    print("=========================================")
+    # print("|              Menu Options:            |")
+    # print("|        1. Select a Squad Player       |")
+    # print("|    2. Select a Fully Scouted Player   |")
+    # print("|      3. Alter Attribute Multipier     |")
+    # print("|        4. Clear Players Folder        |")
+    # print("=========================================")
+    # print(" Format: name_of_file <space> menu_option")
+    # print("=========================================")
 
-filename = "players/" + input() + ".rtf"
-readMe(filename)
+    filename = "players/" + input() + ".rtf"
+    readMe(filename)
