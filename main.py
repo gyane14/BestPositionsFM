@@ -88,10 +88,14 @@ def readMe(filename):
 
 def compareMe(dict):
     pfjson = dict
-    pfroles = json.load(open('roles/roles.json'))
+    pfroles = json.load(open('roles/atom.json'))
 
     positions = [position for position in pfroles]
-    modes = ['Attack', 'Support', 'Defend']
+    # modes = ['Attack', 'Support', 'Defend']
+    if(len(selected_mode) > 1):
+        modes = selected_mode
+    else:
+        mode = [selected_mode]
 
     selections = {}
     for position in positions:
@@ -118,22 +122,31 @@ def compareMe(dict):
     best_selection = selection.most_common(10)
 
     for i in best_selection:
-        print(i[0], " :", i[1], " ")
-
-    print("=========================================")
-    print("||  Please enter the name of the file  ||")
-    print("=========================================")
-    filename = "players/" + input() + ".rtf"
-    readMe(filename)
+        print(i[0],"==>",i[1])
+    
+    exit()
 
 
-try:
-    filename = "players/" + sys.argv[1] + ".rtf"
-    readMe(filename)
-except:
-    print("=========================================")
-    print("||  Please enter the name of the file  ||")
-    print("=========================================")
+print("=========================================")
+print("||  Please enter the name of the file  ||")
+print("=========================================")
+
+filename = "players/" + input() + ".rtf"
+
+print("Select the mode (A/S/D/*):")
+mode_i = input()
+global selected_mode
+if (mode_i == "A" or mode_i == "a"):
+    selected_mode='Attack'
+elif (mode_i == "S" or mode_i == "s"):
+    selected_mode='Support'
+elif (mode_i == "D" or mode_i == "d"):
+    selected_mode='Defend'
+else:
+    selected_mode=['Attack', 'Support', 'Defend']    
+
+readMe(filename)
+
     # print("|              Menu Options:            |")
     # print("|        1. Select a Squad Player       |")
     # print("|    2. Select a Fully Scouted Player   |")
@@ -142,6 +155,3 @@ except:
     # print("=========================================")
     # print(" Format: name_of_file <space> menu_option")
     # print("=========================================")
-
-    filename = "players/" + input() + ".rtf"
-    readMe(filename)

@@ -1,33 +1,36 @@
 # BestPositionsFM
 
-#### Have you ever tried to train a player outside of natural position and don't know what to expect?  
-As a FM player you might already know by now that the *ability stars do lie!* But guess what, the **numbers don't**. This program helps you tackle this exact situation by providing you a list of the best roles and duties for the selected squad (or fully scouted) player. 
+#### Have you ever trained a player out of his natural position and don't know what to expect?  
+As a Football Manager player, you might already know that the *STARS DO LIE!* But guess what, **NUMBERS DONT**. This program helps you solve this situation by providing you a list of the best roles and duties for the selected squad (or fully scouted) player. 
 
 ### Overview
-Although it is clear from the attributes screen which position is the best for the player, yet if you're someone like me (and many others) who admires the beauty of data and boundless possibilities *(lol)*, you're at the right place. This tool *(under development)* will help you analyse the player's ability in **all** positions, roles and duties available in the game!
+Although it is clear from the attributes screen which position is the best for the player, if you're someone like me who admires the beauty of data and boundless other possibilities, you're at the right place! This program will help you analyse the player's full capability in **ALL** positions, roles and duties available in the game!
 
 ### Insight
-A player whose all attributes are known, *i.e. 90+ knowledge level of the player or a squad player* is required to run this program. The program might be developed to predict best positions for players whose knowledge is not complete, in the future.  
+A player whose all attributes are known, *i.e. 90+ knowledge level of the player or a squad player* is required to run this program. The program might be developed to predict the best positions for players whose knowledge is not complete, in the future.  
 
 The algorithm is set up in such a way that "key" attributes related to a player's position and role are prioritised. The value of the "secondary" attributes is no less than 80% of its initial value.
 
 ### Usage
 - While in the game, go to a player's default attributes view 
 - `cmd/ctrl` + `P` and save it as `Text File` into (this) `/players` folder
-- run the `main.py` script and enter the *name* with which you saved the file
+- run the python `main.py` script and enter the *name of saved the file*
 - the program will showcase the best list of positions, roles and duties for the player, with an *aggregate score* 
 
 ### Version History
-- <strong>V0.1 (Current)</strong> <br />
+- <strong>v0.2 (Current)</strong> <br />
+    &#9989; Feature Upgrade: <em>Now you can select <strong>only</strong> Attack/Support/Defend duties from the list!</em> <br />
+
+- <strong>v0.1</strong> <br />
     &#9989; Feature Upgrade: <em>Best Positions for now available for Squad Players!</em> <br />
     &#9989; Roles & Duties Added 
-    <table><em>
-    <tr><td>Inverted Winger</td><td>Inside Forward</td><td>Winger</td><td>Wide Target Man</td><td>Trequartista</td></tr>
-    <tr><td>Raumdeuter</td><td>Mezzala</td><td>Deep Lying Playmaker</td><td>Central Midfielder</td><td>Box To Box Midfielder</td></tr>
-    <tr><td>Carrilero</td><td>Ball Winning Midfielder</td><td>Roaming Playmaker</td><td>Target Man</td><td>Poacher</td></tr>
-    <tr><td>Pressing Forward</td><td>Advanced Forward</td><td>Deep Lying Forward</td><td>Complete Forward</td><td>False Nine</td></tr>
-    <tr><td>Wing Back</td><td>Full Back</td><td>No-Nonsense Full Back</td><td>Complete Wing Back</td><td>Inverted Wing Back</td></tr>
-    </em></table>
+    <table>
+        <tr><td>Inverted Winger</td><td>Inside Forward</td><td>Winger</td><td>Wide Target Man</td><td>Trequartista</td></tr>
+        <tr><td>Raumdeuter</td><td>Mezzala</td><td>Deep Lying</td><td>Central Midfielder</td><td>Box To Box</td></tr>
+        <tr><td>Carrilero</td><td>Ball Winning</td><td>Roaming Playmaker</td><td>Target Man</td><td>Poacher</td></tr>
+        <tr><td>Pressing Fwd</td><td>Advanced Forward</td><td>Deep Lying Fwd</td><td>Complete Forward</td><td>False Nine</td></tr>
+        <tr><td>Wing Back</td><td>Full Back</td><td>No-Nonsense FB</td><td>Complete WB</td><td>Inverted Wing Back</td></tr>
+    </table>
     </details>
 
 
