@@ -9,7 +9,7 @@ Although it is clear from the attributes screen which position is the best for t
 ### Insight
 A player whose all attributes are known, *i.e. 90+ knowledge level of the player or a squad player* is required to run this program. The program might be developed to predict the best positions for players whose knowledge is not complete, in the future.  
 
-The algorithm is set up in such a way that "key" attributes related to a player's position and role are prioritised. The value of the "secondary" attributes is no less than 80% of its initial value.
+The algorithm is set up in such a way that "key" attributes related to a player's position and role are prioritised. The value of the "secondary" attributes is *no less than 80% of its initial value.*
 
 ### Usage
 - While in the game, go to a player's default attributes view 
@@ -26,10 +26,10 @@ The algorithm is set up in such a way that "key" attributes related to a player'
     &#9989; Roles & Duties Added 
     <table>
         <tr><td>Inverted Winger</td><td>Inside Forward</td><td>Winger</td><td>Wide Target Man</td><td>Trequartista</td></tr>
-        <tr><td>Raumdeuter</td><td>Mezzala</td><td>Deep Lying</td><td>Central Midfielder</td><td>Box To Box</td></tr>
-        <tr><td>Carrilero</td><td>Ball Winning</td><td>Roaming Playmaker</td><td>Target Man</td><td>Poacher</td></tr>
+        <tr><td>Raumdeuter</td><td>Mezzala</td><td>Deep Lying</td><td>Central Midfielder</td><td>Box To Box MD</td></tr>
+        <tr><td>Carrilero</td><td>Ball Winning MD</td><td>Roaming Playmaker</td><td>Target Man</td><td>Poacher</td></tr>
         <tr><td>Pressing Fwd</td><td>Advanced Forward</td><td>Deep Lying Fwd</td><td>Complete Forward</td><td>False Nine</td></tr>
-        <tr><td>Wing Back</td><td>Full Back</td><td>No-Nonsense FB</td><td>Complete WB</td><td>Inverted Wing Back</td></tr>
+        <tr><td>Wing Back</td><td>Full Back</td><td>No-Nonsense FB</td><td>Complete WB</td><td>Inverted WB</td></tr>
     </table>
     </details>
 

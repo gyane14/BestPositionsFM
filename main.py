@@ -3,6 +3,8 @@ import sys
 from collections import Counter
 
 
+global modes
+
 def readMe(filename):
     with open(filename) as f:
         lines = f.readlines()
@@ -91,11 +93,7 @@ def compareMe(dict):
     pfroles = json.load(open('roles/atom.json'))
 
     positions = [position for position in pfroles]
-    # modes = ['Attack', 'Support', 'Defend']
-    if(len(selected_mode) > 1):
-        modes = selected_mode
-    else:
-        mode = [selected_mode]
+    # modes = ['Attack', 'Support', 'Defend']    
 
     selections = {}
     for position in positions:
@@ -137,13 +135,13 @@ print("Select the mode (A/S/D/*):")
 mode_i = input()
 global selected_mode
 if (mode_i == "A" or mode_i == "a"):
-    selected_mode='Attack'
+    modes=['Attack']
 elif (mode_i == "S" or mode_i == "s"):
-    selected_mode='Support'
+    modes=['Support']
 elif (mode_i == "D" or mode_i == "d"):
-    selected_mode='Defend'
+    modes=['Defend']
 else:
-    selected_mode=['Attack', 'Support', 'Defend']    
+    modes=['Attack', 'Support', 'Defend']    
 
 readMe(filename)
 
