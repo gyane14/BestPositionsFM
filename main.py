@@ -103,12 +103,20 @@ def compareMe(dict):
                 selections[position, mode] = 0
                 for j in pfjson:
                     if (i == j):
-                        tsum += float(pfjson[i])
+                        # trying to catch the predicted values
+                        try:
+                            tsum += float(pfjson[i])
+                        except:
+                            tsum += float(pfjson[i].split('-')[1])
 
             for k in pfroles[position][mode]['prefer']:
                 for l in pfjson:
                     if (k == l):
-                        tsum += float(float(pfjson[k])*0.8)
+                        # trying to catch the predicted values
+                        try:
+                            tsum += float(float(pfjson[k])*0.8)
+                        except:
+                            tsum += float(float(pfjson[k].split('-')[1])*0.8)
 
             try:
                 selections[position, mode] = float(format(
